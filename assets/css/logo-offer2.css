@@ -206,7 +206,7 @@ section.an-banner {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 0px;
-    background-image: -webkit-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%) !important;
+    background-image: -webkit-linear-gradient(180deg, #9FFFC3 0%, #5243C6 100%) !important;
     height: 60px;
     font-size: 17px;
 }
@@ -409,7 +409,7 @@ html {
 }
 
 .btn_black.open_chat_btn:hover {
-    background: #ee3364 !important;
+    background: #1e1580 !important;
 }
 
 .icons-sec {
