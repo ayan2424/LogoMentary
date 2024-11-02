@@ -659,9 +659,9 @@ section.an-banner h2 span {
 
 .thm-btn.gradian,
 section.an-banner .thm-btn.mini-btn.brd-rd3.btn_black.open_chat_btn {
-    background-image: -moz-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%) !important;
-    background-image: -ms-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%);
+    background-image: -moz-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%);
+    background-image: -webkit-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%) !important;
+    background-image: -ms-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%);
     color: white;
     font-size: 18px;
     font-family: "neue";
@@ -1055,7 +1055,7 @@ footer .main-head h2 {
 }
 
 .foot-bgp {
-    background: #f31c59;
+    background: black;
 }
 
 .foot-bgp2 {
@@ -1460,18 +1460,18 @@ section.newsletter-sec .main-head p {
     position: absolute;
     width: 200px;
     border-radius: 10px;
-    background: #f31c59;
+    background: #1e1580;
     color: white;
     font-size: 24px;
     height: 65px;
     right: 0px;
     top: 0px;
-    border: 2px solid #f31c59;
+    border: 2px solid #1e1580;
 }
 
 .newsletter-wrapper button:hover {
     background: white;
-    color: #f31c59;
+    color: #1e1580;
 }
 
 .footer-inner .logo img {
