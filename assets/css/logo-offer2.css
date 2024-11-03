@@ -567,7 +567,7 @@ section.an-banner li img {
     display: inline-flex;
     align-items: flex-end;
     padding: 0px 30px;
-    background-image: linear-gradient(45deg, #f3155c, #f85b40);
+    background-image: linear-gradient(45deg, #1e1580, #9FFFC3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -761,7 +761,7 @@ section.portfolio-sec.dark-background {
 
 .main-head h2 span {
     color: white;
-    background-image: linear-gradient(45deg, #f3155c, #f85b40);
+    background-image: linear-gradient(45deg, #1e1580, #9FFFC3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 90px;
