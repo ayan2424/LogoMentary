@@ -7102,7 +7102,7 @@ span.pink-color {
 .price-body3 ul::-webkit-scrollbar {
     height: 100px;
     width: 10px;
-    background: #000;
+    background: #9fffc3;
     border-radius: 16px
 }
 
@@ -7114,7 +7114,7 @@ span.pink-color {
 .price-body3 ul::-webkit-scrollbar-thumb {
     background-color: #babac0;
     border-radius: 16px;
-    border: 5px solid #c62b60
+    border: 5px solid #1e1580
 }
 
 .top-nav {
@@ -7189,7 +7189,8 @@ span.pink-color {
 }
 
 .footer-wrap ul.c-info li a i {
-    margin-right: 10px
+    margin-right: 10px;
+    transform: rotate(95deg);
 }
 
 .price-body3>a:hover {
@@ -7405,7 +7406,7 @@ small {
 .price-box3:hover {
     transform: scale(1.05);
     z-index: 1;
-    border-color: #ee3364;
+    border-color: #5243c6;
     background-color: #fff;
     box-shadow: 0 25px 50px 0 rgba(125, 123, 222, .25)
 }
@@ -7435,7 +7436,7 @@ header ul li a:hover {
 
 .price-box3 sup {
     font-size: 20px !important;
-    text-decoration: line-through red !important;
+    text-decoration: line-through #1e1580 !important;
     margin-bottom: 5px;
     margin-left: 7px
 }

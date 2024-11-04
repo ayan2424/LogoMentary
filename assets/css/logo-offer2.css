@@ -170,7 +170,7 @@ section.an-banner {
     margin-left: auto;
     left: 0px;
     border-radius: 9px;
-    border: 4px solid #ffae00;
+    border: 4px solid #86e3ce;
 }
 
 .logo-desig-banner-form h3 {
@@ -206,7 +206,7 @@ section.an-banner {
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 0px;
-    background-image: -webkit-linear-gradient(180deg, #9FFFC3 0%, #5243C6 100%) !important;
+    background-image: -webkit-linear-gradient(180deg, #1e1580 0%, #5243c6 100%) !important;
     height: 60px;
     font-size: 17px;
 }
@@ -377,7 +377,7 @@ section.an-banner ul {
     border: none;
     background: white;
     box-shadow: 0px 50px 50px 0px rgba(33, 0, 100, 0.1);
-    border-top: 6px solid #ed3363;
+    border-top: 6px solid #5243c6;
     padding: 0px;
 }
 
@@ -401,7 +401,7 @@ section.an-banner ul {
 }
 
 header ul li a:hover {
-    color: #ed3363;
+    color: #5243c6;
 }
 
 html {
@@ -409,7 +409,7 @@ html {
 }
 
 .btn_black.open_chat_btn:hover {
-    background: #1e1580 !important;
+    background: #5243c6 !important;
 }
 
 .icons-sec {
@@ -558,7 +558,7 @@ section.an-banner li img {
 
 .price-box3 sup {
     font-size: 20px !important;
-    text-decoration: line-through red !important;
+    text-decoration: line-through #1e1580 !important;
     margin-bottom: 5px;
     margin-left: 7px;
 }
@@ -567,9 +567,9 @@ section.an-banner li img {
     display: inline-flex;
     align-items: flex-end;
     padding: 0px 30px;
-    background-image: linear-gradient(45deg, #1e1580, #9FFFC3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #5243c6;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 section.an-banner h1 span sup {
@@ -641,7 +641,7 @@ section.an-banner h2 {
 
 section.an-banner h2 span {
     font-size: 100px;
-    color: #ffae00;
+    color: #7e5df9;
     display: inline-block;
     position: relative;
     top: 30px;
@@ -659,9 +659,9 @@ section.an-banner h2 span {
 
 .thm-btn.gradian,
 section.an-banner .thm-btn.mini-btn.brd-rd3.btn_black.open_chat_btn {
-    background-image: -moz-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%);
-    background-image: -webkit-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%) !important;
-    background-image: -ms-linear-gradient(109deg, #5243C6 0%, #9FFFC3 100%);
+    background-image: -moz-linear-gradient(109deg, #1e1580 0%, #5243c6 100%);
+    background-image: -webkit-linear-gradient(109deg, #1e1580 0%, #5243c6 100%) !important;
+    background-image: -ms-linear-gradient(109deg, #1e1580 0%, #5243c6 100%);
     color: white;
     font-size: 18px;
     font-family: "neue";
@@ -761,7 +761,7 @@ section.portfolio-sec.dark-background {
 
 .main-head h2 span {
     color: white;
-    background-image: linear-gradient(45deg, #1e1580, #9FFFC3);
+    background-image: linear-gradient(45deg, #1e1580, #5243c6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 90px;
@@ -893,13 +893,13 @@ a.thm-btn.outline.dark:hover {
 
 .price-box3:hover li {}
 
-.price-box3:hover ul+a {
-    background: linear-gradient(45deg, #f3155c, #f85b40) !important;
+.price-box3 a {
+    background: linear-gradient(45deg, #1e1580, #5243c6) !important;
     color: white;
 }
 
 .price-box3:hover h3 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .price-body3>ul li::before {
@@ -911,16 +911,16 @@ a.thm-btn.outline.dark:hover {
 }
 
 .price-body3>ul+a {
-    background-image: -moz-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%) !important;
-    background-image: -ms-linear-gradient( 0deg, rgb(242, 5, 97) 0%, rgb(250, 114, 54) 100%);
+    background-image: -moz-linear-gradient( 0deg, #1e1580 0%, #5243c6  100%);
+    background-image: -webkit-linear-gradient( 0deg, #1e1580 0%, #5243c6  100%) !important;
+    background-image: -ms-linear-gradient( 0deg, #1e1580 0%, #5243c6  100%);
     width: calc(100% + 60px);
     margin-left: -30px;
     font-size: 20px;
     font-weight: 300;
     padding: 20px;
-    background: #f5f5fa !important;
-    color: black;
+    background: linear-gradient( 0deg, #1e1580 0%, #5243c6  100%) !important;
+    color: #ffff;
     text-align: center;
 }
 
@@ -1000,7 +1000,7 @@ a.thm-btn.outline.dark:hover {
 
 .test-sec h2 span {
     font-size: 6.25rem;
-    background-image: linear-gradient(45deg, #f3155c, #f85b40);
+    background-image: linear-gradient(45deg, #1e1580, #5243c6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1079,7 +1079,7 @@ section.an-banner h2 sup::before {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #f20760;
+    background: #1e1580;
     left: 0px;
     top: 50%;
 }
@@ -1089,13 +1089,13 @@ section.an-banner li {
 }
 
 section.an-banner li i {
-    color: #c2e103;
+    color: #86e3ce;
     margin-right: 6px;
 }
 
 .price-body3>ul li i {
     font-size: 13px;
-    color: #00d91f;
+    color: #86e3ce;
     display: inline-block;
     position: relative;
     top: 9px;
@@ -1144,7 +1144,7 @@ header .thm-btn.open_chat_btn {
     min-width: auto;
     line-height: 100px;
     border-radius: 100%;
-    background: #ffae00 !important;
+    background: #86e3ce !important;
     color: black;
     animation: 1s testanimate linear infinite;
 }
@@ -1176,16 +1176,16 @@ section.an-banner h1 b {
     font-size: 45px;
     font-weight: 600;
     color: white;
-    background: linear-gradient(90deg, #ff0a93, transparent);
+    background: linear-gradient(90deg, #5243c6, transparent);
     padding-left: 10px;
     padding-right: 40px;
 }
 
 .logo-desig-banner-form h3 strong {
     font-size: 50px;
-    background-image: linear-gradient(45deg, #f3155c, #f85b40);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #7e5df9;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .partner-wrapper {
@@ -1246,11 +1246,11 @@ section.an-banner .partner-wrapper .partner img {
 }
 
 .portfolio-sec .nav-tabs .slick-slide.slick-current.slick-active a::before {
-    background: linear-gradient(45deg, #f3155c, #f85b40);
+    background: linear-gradient(45deg, #1e1580, #5243c6);
 }
 
 .portfolio-sec .nav-tabs a:hover:before {
-    background: linear-gradient(45deg, #f3155c, #f85b40);
+    background: linear-gradient(45deg, #1e1580, #5243c6);
 }
 
 .portfolio-sec .nav-tabs li a,
@@ -1310,7 +1310,7 @@ ul.cta-contact {
     margin-top: 0px;
     margin-bottom: 20px !important;
     padding-top: 30px;
-    border-bottom: 1px solid #ed3363;
+    border-bottom: 1px solid #5243c6;
 }
 
 .price-head3>h3 sup {
@@ -1349,14 +1349,14 @@ section.combo-section h2 b {
     font-weight: 600;
     padding: 10px;
     padding-right: 20px;
-    background: linear-gradient(94deg, #f20660, transparent);
+    background: linear-gradient(94deg, #5243c6, transparent);
 }
 
 section.combo-section h2 span {
     font-size: 110px;
     line-height: 110px;
     font-weight: 700;
-    color: #ffc800;
+    color: #5243c6;
 }
 
 section.combo-section ul {
@@ -1369,7 +1369,7 @@ section.combo-section ul li {
 }
 
 section.combo-section ul li i {
-    color: #00d91f;
+    color: #9fffc3;
     margin-right: 5px;
 }
 
@@ -1403,7 +1403,7 @@ section.combo-section .comb0-text {
 section.cta-2.dark-background {}
 
 .test-slider .slick-slide>div h4 {
-    color: #f31e58;
+    color: #5243c6;
     font-weight: 300;
     font-size: 24px;
     margin-bottom: 20px;
@@ -1428,7 +1428,7 @@ section.cta-2.dark-background {}
 section.newsletter-sec {
     padding: 70px 0px;
     text-align: center;
-    background: #ffae00;
+    background: #a899f5;
 }
 
 section.newsletter-sec .main-head h2 span {
