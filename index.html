@@ -1,7 +1,7 @@
 <!-- 
   Editor: Muhammad Ayan Shamim
   Last Edited: November 4, 2024
-  Description: This HTML file is for the homepage of the website.
+  linkedin: 
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -695,34 +695,33 @@
                     <small class="pkg_name">Logo & Identity</small>
                     <h3 class="title pkg_title"><span id="pkg_title">Newbie</span> - <span class="pkg_price">$49</span>
                     </h3>
-                    <form class="leadform lfcta" data-source="package" data-fid="1ZidO8eNltsVuAzkJJW8hG4Gb1e1cAVSR0EScu8h">
+                    <form class="leadform lfcta" action="send_form.php" method="POST" data-source="package" data-fid="1ZidO8eNltsVuAzkJJW8hG4Gb1e1cAVSR0EScu8h">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form_field">
-                                    <input type="text" name="name" class="c_field" placeholder="Your Name">
+                                    <input type="text" name="name" class="c_field" placeholder="Your Name" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form_field">
-                                    <input type="email" class="c_field" name="email" placeholder="Your Email Address">
+                                    <input type="email" class="c_field" name="email" placeholder="Your Email Address" required>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form_field">
-                                    <input type="tel" name="phone" class="c_field" placeholder="Your Phone Number">
+                                    <input type="tel" name="phone" class="c_field" placeholder="Your Phone Number" required>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form_field">
-                                    <textarea class="c_field" name="message" rows="5" placeholder="Your Message"></textarea>
+                                    <textarea class="c_field" name="message" rows="5" placeholder="Your Message" required></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                    <input class="form-check-input" type="checkbox" value="yes" name="newsletter" id="flexCheckDefault2">
                                     <label class="form-check-label" for="flexCheckDefault2">
-                                        To receive our weekly Newsletter/SMS and offers check here. You can unsubscribe
-                                        at any time.
+                                        To receive our weekly Newsletter/SMS and offers check here. You can unsubscribe at any time.
                                     </label>
                                 </div>
                             </div>
@@ -737,6 +736,7 @@
                             </div>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
