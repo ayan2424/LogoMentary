@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $newsletter = isset($_POST['newsletter']) ? 'Yes' : 'No';
 
     // Set email details
-    $to = "sales@logoxoom.com"; // Your email address
+    $to = "ayanshamim24@gmail.com"; // Your email address
     $subject = "New Contact Form Submission";
     $body = "You have received a new message from the contact form on your website:\n\n";
     $body .= "Name: $name\n";
