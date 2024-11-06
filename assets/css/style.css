@@ -7190,9 +7190,12 @@ span.pink-color {
 
 .footer-wrap ul.c-info li a i {
     margin-right: 10px;
-    transform: rotate(95deg);
+    
 }
-
+.footer-wrap ul.c-info li a i .fa-phone{
+    transform: rotate(95deg);
+    
+}
 .price-body3>a:hover {
     background: #000 !important
 }
