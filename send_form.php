@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Thoda delay de kar homepage par redirect kare
         echo "<script>
                 setTimeout(function() {
-                    window.location.href = 'index.html'; // Yeh aapke homepage ka URL hona chahiye
+                    window.location.href = './'; // Yeh aapke homepage ka URL hona chahiye
                 }, 1000); // 2 seconds ka delay
               </script>";
     } else {
