@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Set email details
     $to = "ayanshamim24@gmail.com"; // Your email address
     $subject = "New Contact Form Submission";
-    $body = "You have received a new message from the contact form on your website:\n\n";
+    $body = "You have received a new contact form from customer of LogoXoom:\n\n";
     $body .= "Name: $name\n";
     $body .= "Email: $email\n";
     $body .= "Phone: $phone\n";
