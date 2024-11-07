@@ -1,32 +1,30 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
-    $name = htmlspecialchars(strip_tags(trim($_POST['name'])));
+    // Form fields ko sanitize aur validate karein
+    $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-    $phone = htmlspecialchars(strip_tags(trim($_POST['phone'])));
-    $message = htmlspecialchars(strip_tags(trim($_POST['message'])));
-    $newsletter = isset($_POST['newsletter']) ? 'Yes' : 'No';
-
-    // Set email details
-    $to = "ayanshamim24@gmail.com"; // Your email address
+    $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
+    $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+    
+    // Email details
+    $to = "sales@logoxoom.com";
     $subject = "New Contact Form Submission";
-    $body = "You have received a new contact form from customer of LogoXoom:\n\n";
-    $body .= "Name: $name\n";
-    $body .= "Email: $email\n";
-    $body .= "Phone: $phone\n";
-    $body .= "Message: $message\n";
-    $body .= "Newsletter Signup: $newsletter\n";
-
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
-
-    // Send email
+    $body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage:\n$message";
+    $headers = "From: no-reply@yourwebsite.com";
+    
+    // Email send karne ki koshish
     if (mail($to, $subject, $body, $headers)) {
-        echo "<p>Your form has been successfully submitted!</p>";
+        // Agar email successfully send ho jae, user ko confirmation message dikhaye
+        echo "<script>alert('Your form has been submitted successfully!');</script>";
+        
+        // Thoda delay de kar homepage par redirect kare
+        echo "<script>
+                setTimeout(function() {
+                    window.location.href = 'index.html'; // Yeh aapke homepage ka URL hona chahiye
+                }, 1000); // 2 seconds ka delay
+              </script>";
     } else {
-        echo "<p>There was an error sending your message. Please try again later.</p>";
+        echo "<script>alert('Failed to send your message. Please try again later.');</script>";
     }
-} else {
-    echo "<p>Invalid request</p>";
 }
 ?>
